@@ -1,0 +1,23 @@
+{
+  "name": "devcamper-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^4.2.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
